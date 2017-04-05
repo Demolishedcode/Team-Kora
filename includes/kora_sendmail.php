@@ -9,12 +9,12 @@ $mail = new PHPMailer;
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';                      // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'demolishedcode@gmail.com';             // SMTP username
-$mail->Password = 'ZebraOpZebraPad135';              // SMTP password
+$mail->Username = //HIdden;             // SMTP username
+$mail->Password =  //Hidden;              // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 $mail->isHTML(true);                                  // Set email format to HTML
-$mail->setFrom('demolishedcode@gmail.com', 'Team Kora');
+$mail->setFrom('Hidden', 'Team Kora');
 
 function sendActivation ($userName, $userId, $userMail, $userActivation) {
   global $mail;
